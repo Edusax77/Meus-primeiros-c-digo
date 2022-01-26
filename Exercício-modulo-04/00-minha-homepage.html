@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Nerds/Homepage</title>
+    <link rel="shortcut icon" href="faviconNerd.ico" type="image/x-icon">
+    <style>
+        * {
+          box-sizing: border-box;
+          background-image: url("pano-de\ fundo2.jpg");
+        }
+
+        body {
+          font-family: Arial , Helvetica, sans-serif #947927;
+        
+        }
+
+        /* Style the header */
+        header {
+          background-color:#947517;
+          padding: 30px;
+          text-align:center;
+          font-size: 50px  Arial , Helvetica, sans-serif;
+          color: #221a02;
+          
+
+        }
+        /* Create two columns/boxes that floats next to each other */
+        nav {
+          float: left;
+          width: 30%;
+           
+          background: #FFE28D;
+          padding: 20px;
+        }
+
+        /* Style the list inside the menu */
+        nav ul {
+          list-style-type: none;
+          padding: 0;
+          color: #71570C;
+          text-decoration-color:#71570C;
+        }
+        
+        
+         article {
+          float: left;
+          padding: 20px;
+          width: 70%;
+          background-color: #e9e392;
+          text-decoration-color:#71570C;
+          
+        }
+
+        /* Clear floats after the columns */
+        section::after {
+          background: #f0e98b;
+          content: "";
+          display: table;
+          clear: both;
+          text-decoration-color:#71570C;
+        }
+
+        /* Style the footer */
+        footer {
+          background-color:#D1AE46;
+          padding: 10px;
+         text-align: center;
+          color: #272503;
+        }
+
+        /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+        @media (max-width: 600px) {
+          nav, article {
+            width: 100%;
+            height: auto;
+          }
+        }
+        div{
+           
+            text-align: center;
+        }
+       
+      
+        </style>
+</head>
+<body>
+    <header>
+      <ul>
+        
+        <li style="display: inline;"><img src="https://ebaconline.com.br/upload/cms/PCUpDAaiGfcb6x6nmVJPT.svg" alt="imagem de um Pc">
+         <li style="display: inline;"><img src="img-ebac.svg" alt="logo da escola EBAC;"> <h1 style=" margin-left: 30%; margin-right:40%; "><em>Curso Desenvovedor Full Stack Pyton</h1></em>
+      </ul>
+    </header>
+
+    <section>
+        <nav> 
+             <h3>Redes sociais</h3>
+            <ul aria-atomic="true">
+                <p>
+                  <li><img src="faviconfacebook.ico" alt="icone do facebook"> <a href="https://www.facebook.com/liliane.barbosa.184007/" target="_blank" rel="extenal">Facebook</a><strong>- Me acompanhe lá.</strong></li></p>
+                  <li><img src="faviconGIb.ico" alt="iconido GitHub"> <a href="https://github.com/Ednego77" target="_blank" rel=" external">GitHub/Ednego77</a><strong> - Acesse meu repositório público</strong></li>
+                <p>
+                  <li><img src="faviconlinkedin.ico" alt="icone do Linkedin"><a href="https://www.linkedin.com/feed/" target="_blank" rel="external"> Linkedin </a><strong> - Eduardo Souza: Me adicione . </strong></li>  
+                </p> 
+                <p>
+                  <li><img src="faviconyoutube.ico" alt="iconi do youTube"><a href="https://www.youtube.com/channel/UCXRJhBw9hn2F5yIE03_uXMg" target="_blank " rel="external">Dudu Souza/youTube</a><strong> - Inscreva-se no meu canal do youTube</strong> </li>
+                </p>
+                
+            </ul>
+               <h3>Aulas</h3>
+              <ol>
+                <li><a href="01-introducao.html">Introdução</a></li>
+                <li><a href="02-listas-e-links.html">Listas-e-links</a></li>
+                
+                <li> <a href="03-formatacao-de-texto.html">Formatação de texto</a> 
+                  
+                <li><a href="04-tabelas.html">Tabelas</a> e <a href="05-layouts.html">Layouts</a></li>
+                
+                <li><a href="06-formularios.html">Formulários</a></li>
+
+              </ol>
+                <strong>
+                  <p>Venha ser um aluno EBAC</p>
+                </strong>
+                <li><a href="https://ebaconline.com.br/sale/ano-novo" target="_blank" rel="">Conheça os cursos da EBAC</a></li>
+              
+        </nav>
+      <article>
+            
+        <h2 style="margin-left: 16%;">Aluno</h2>
+        
+        <img src="minha foto.png" style="margin-left: 10%" alt="foto perfil">
+        
+           
+        <p style="margin-left: 10%;">Olá! meu nome é <strong>Luiz Eduardo de Souza</strong>,<br>
+          moro na Cidade de Osvaldo Cruz-SP profissão Mestre em Obras,casado com: <br>
+          Liliane O.A.B de Souza tenho uma filha que se chama: Pâmela, <br>
+          estou estudando Desenvovimento Full Stack na escola Ebac, <br>
+          Pretendo em breve ser um programador.
+        </p>
+        <strong> <p style="margin-left: 10%;">Para me conhecer melhor é só me seguir nas    sociais.</p></strong>
+          
+      </article>
+    </section>
+    
+    <footer>
+       <p> &copysr; &lt;Edu/Dev&gt;</p>
+    </footer>
+</body>
+</html>
